@@ -4,7 +4,7 @@ A responsive multi-page student portfolio created for the COS 106 Introduction t
 
 ## About the student
 
-- **Name:** Modupeoluwa Ogunjobi
+- **Name:** Modupe Ogunjobi
 - **Programme:** BSc Cybersecurity, 100 Level
 - **Institution:** MIVA Open University
 
