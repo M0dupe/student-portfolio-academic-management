@@ -58,3 +58,24 @@
 .hero-art{background:transparent;border-radius:0;overflow:visible}
 .hero-photo{width:100%;height:100%;object-fit:contain;object-position:center bottom;filter:drop-shadow(0 16px 24px rgba(28,39,75,.12))}
 @media(max-width:760px){.hero-art{background:transparent}.hero-photo{object-fit:contain;object-position:center bottom}}
+
+
+/* Keep the homepage text and portrait side by side on phones. */
+@media(max-width:760px){
+  .hero{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:10px;min-height:0;padding-block:38px;align-items:center}
+  .hero-copy{min-width:0}
+  .hero-copy .eyebrow{font-size:.58rem;letter-spacing:.09em;line-height:1.5}
+  .hero h1{font-size:clamp(1.65rem,7vw,2.25rem);overflow-wrap:anywhere}
+  .hero .lead{font-size:.86rem;line-height:1.5}
+  .hero .button-row{flex-direction:column;align-items:stretch;gap:8px;margin-top:18px}
+  .hero .button-row .button{padding:10px 8px;font-size:.78rem;text-align:center}
+  .hero-art{height:290px;min-height:290px;max-width:none;width:100%;margin:0;padding:0;background:transparent}
+  .hero-photo{height:100%;width:100%;object-fit:contain;object-position:center bottom}
+  .hero-art p{font-size:.65rem;line-height:1.3;padding:12px 4px 8px}
+}
+@media(max-width:360px){
+  .hero{gap:7px;padding-block:28px}
+  .hero h1{font-size:1.55rem}
+  .hero .lead{font-size:.8rem}
+  .hero-art{height:250px;min-height:250px}
+}
