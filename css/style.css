@@ -38,3 +38,17 @@
 .document-actions .button-outline:hover{background:var(--purple);color:#fff}
 .document-note{margin-top:28px;padding:20px 24px;background:var(--mint);border-radius:14px;color:var(--ink)}
 @media(max-width:760px){.document-grid{grid-template-columns:1fr}.document-card{min-height:220px}}
+
+
+/* Academic planner timetable */
+.schedule-section{max-width:100%;margin-top:28px}
+.schedule-section h2{margin-top:4px}
+.schedule-table-wrap{width:100%;overflow-x:auto;margin-top:18px}
+.schedule-table{width:100%;border-collapse:collapse;min-width:560px;text-align:left}
+.schedule-table th,.schedule-table td{padding:13px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+.schedule-table th{background:#f0efff;color:#5148bd;font-size:.88rem}
+.schedule-table td{font-size:.93rem}
+.schedule-table tbody tr:last-child td{border-bottom:0}
+.schedule-table tbody tr:hover{background:#fafaff}
+.planner{margin-top:28px}
+@media(max-width:600px){.schedule-section{padding:20px 16px}.schedule-table th,.schedule-table td{padding:11px 10px;font-size:.85rem}}
