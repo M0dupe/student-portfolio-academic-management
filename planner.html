@@ -2,7 +2,30 @@
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Academic Planner | Modupe Ogunjobi</title><link rel="stylesheet" href="css/style.css"><script src="js/main.js" defer></script></head>
 <body>
 <header class="site-header"><a class="brand" href="index.html">MO<span>.</span></a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a class="active" href="planner.html">Planner</a><a href="credentials.html">CV & Certificates</a><a href="contact.html">Contact</a></nav></header>
-<main class="container page-content"><p class="eyebrow">STAY ORGANISED</p><h1>Academic <span>planner</span></h1><p class="section-intro">Add study tasks, keep track of your progress and remove tasks when you no longer need them. Your list is saved in this browser using local storage.</p>
-<section class="planner panel"><form id="task-form" class="task-form"><label for="task-input">What do you need to do?</label><div class="task-entry"><input id="task-input" type="text" placeholder="e.g. Review HTML notes" maxlength="100" required><button class="button" type="submit">Add task +</button></div></form>
+<main class="container page-content"><p class="eyebrow">STAY ORGANISED</p><h1>Academic <span>planner</span></h1><p class="section-intro">Keep your live classes, examination dates and personal study tasks organised in one place.</p>
+
+<section class="schedule-section panel" aria-labelledby="live-classes-heading">
+<p class="eyebrow">NOVEMBER 2026</p><h2 id="live-classes-heading" class="subheading">Live class timetable</h2>
+<div class="schedule-table-wrap"><table class="schedule-table"><thead><tr><th>Date</th><th>Time</th><th>Course</th></tr></thead><tbody>
+<tr><td>Tue, 17 Nov</td><td>3:00 – 4:30 pm</td><td>COS 102 – Problem Solving</td></tr>
+<tr><td>Wed, 18 Nov</td><td>1:30 – 3:00 pm</td><td>GST 122 – Communication in English II</td></tr>
+<tr><td>Wed, 18 Nov</td><td>3:00 – 4:30 pm</td><td>CSC 106 – Introduction to Web Technologies</td></tr>
+<tr><td>Wed, 18 Nov</td><td>4:30 – 6:00 pm</td><td>GST 112 – Nigerian People and Culture</td></tr>
+<tr><td>Mon, 23 Nov</td><td>4:30 – 6:00 pm</td><td>COS 111 – Technical Certification in Computing I</td></tr>
+<tr><td>Tue, 24 Nov</td><td>3:00 – 4:30 pm</td><td>PHY 102 – General Physics II</td></tr>
+<tr><td>Wed, 25 Nov</td><td>3:00 – 4:30 pm</td><td>MTH 102 – Elementary Mathematics II</td></tr>
+<tr><td>Wed, 25 Nov</td><td>4:30 – 6:00 pm</td><td>PHY 108 – General Practical Physics II</td></tr>
+</tbody></table></div></section>
+
+<section class="schedule-section panel" aria-labelledby="exam-heading">
+<p class="eyebrow">DECEMBER 2026</p><h2 id="exam-heading" class="subheading">Second-semester examination timetable</h2>
+<div class="schedule-table-wrap"><table class="schedule-table"><thead><tr><th>Date</th><th>9:00 – 11:00 am</th><th>1:00 – 3:00 pm</th></tr></thead><tbody>
+<tr><td>Tue, 8 Dec</td><td>COS 102 – Problem Solving</td><td>GST 122 – Communication in English II</td></tr>
+<tr><td>Thu, 10 Dec</td><td>PHY 102 – General Physics II</td><td>CSC 106 – Introduction to Web Technologies</td></tr>
+<tr><td>Fri, 11 Dec</td><td>MTH 102 – Elementary Mathematics II</td><td>PHY 108 – General Practical Physics II</td></tr>
+<tr><td>Sat, 12 Dec</td><td>—</td><td>GST 112 – Nigerian People and Culture</td></tr>
+</tbody></table></div></section>
+
+<section class="planner panel"><h2 class="subheading">My study tasks</h2><p class="muted">Add study tasks, keep track of your progress and remove tasks when you no longer need them. Your list is saved in this browser using local storage.</p><form id="task-form" class="task-form"><label for="task-input">What do you need to do?</label><div class="task-entry"><input id="task-input" type="text" placeholder="e.g. Review HTML notes" maxlength="100" required><button class="button" type="submit">Add task +</button></div></form>
 <div class="planner-summary"><span id="task-count">0 tasks</span><span id="completed-count">0 completed</span></div><ul id="task-list" class="task-list" aria-live="polite"><li class="empty-state">No tasks yet. Add your first study task above.</li></ul><button id="clear-completed" class="text-button" type="button">Clear completed tasks</button></section>
 </main><footer class="site-footer"><div class="container footer-inner"><p>© <span class="current-year"></span> Modupe Ogunjobi</p><p>Made with HTML, CSS & JavaScript</p></div></footer></body></html>
