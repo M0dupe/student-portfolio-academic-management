@@ -52,3 +52,9 @@
 .schedule-table tbody tr:hover{background:#fafaff}
 .planner{margin-top:28px}
 @media(max-width:600px){.schedule-section{padding:20px 16px}.schedule-table th,.schedule-table td{padding:11px 10px;font-size:.85rem}}
+
+
+/* Transparent 4K homepage portrait: show the cut-out subject, not the old photo background. */
+.hero-art{background:transparent;border-radius:0;overflow:visible}
+.hero-photo{width:100%;height:100%;object-fit:contain;object-position:center bottom;filter:drop-shadow(0 16px 24px rgba(28,39,75,.12))}
+@media(max-width:760px){.hero-art{background:transparent}.hero-photo{object-fit:contain;object-position:center bottom}}
